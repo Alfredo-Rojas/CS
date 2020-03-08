@@ -107,3 +107,19 @@
 //     printf("Not agreed.\n");
 //   }
 // }
+
+////////Creating a function to get positives intergers
+// int get_positive_int(void);
+
+// int main(void) {
+//    get_positive_int();
+// }
+
+// int get_positive_int(void) {
+// int n;
+// do {
+//     n = get_int("Enter a positive interger: \n");
+// }
+// while (n < 1);
+//     return n;
+// }
