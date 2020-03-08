@@ -63,3 +63,14 @@
 //   float price = get_float("What's the price?\n");
 //   printf("Your total is %.2f.\n", price * 1.07);
 // }
+
+//////Even or Odd
+
+// int main(void) {
+//   int n = get_int("n: ");
+//   if (n % 2 == 0) {
+//     printf("The number %i is even\n", n);
+//   } else {
+//     printf("The number %i is odd\n", n);
+//   }
+// }
