@@ -74,3 +74,36 @@
 //     printf("The number %i is odd\n", n);
 //   }
 // }
+
+///////Conditions
+
+// int main(void) {
+
+//   //Prompt user for x
+//   int x = get_int("x: ");
+
+//   //Prompt user for y
+//   int y = get_int("y: ");
+
+//   //Compare x and y
+//   if (x < y) {
+//     printf("x is less than y\n");
+//   } else {
+//     printf("x is more than y\n");
+//   }
+// }
+
+///Agree
+
+// int main(void) {
+
+//   //Promp user to agree
+//   char c = get_char("Do you agree?\n");
+
+//   //Check whether agreed
+//   if (c == 'y' || c == 'Y') {
+//     printf("Agreed.\n");
+//   } else if (c == 'n' || c == 'N') {
+//     printf("Not agreed.\n");
+//   }
+// }
