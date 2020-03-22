@@ -1,0 +1,8 @@
+
+1- get the key
+
+2- get the plaintext
+
+3- encipher
+
+4- print ciphertext
