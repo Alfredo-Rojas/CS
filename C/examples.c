@@ -313,3 +313,24 @@
 //   printf("%c\n", *(s + 3));
 // }
 
+///////Memory allocation///////
+// #include <stdio.h>
+// #include <ctype.h>
+// #include <string.h>
+// #include <stdlib.h>
+// #include <cs50.h>
+
+// int main(void)
+// {
+//     char *s = get_string("S: ");
+//     char *t = malloc(strlen(s) + 1);//Means then input lenght + the null(\0) char at the end to denote the end of the string
+
+//     strcpy(t, s);//copy the chars in s to t(different address in memory)
+
+//     t[0] = toupper(t[0]);
+
+//     printf("%s\n", s);
+//     printf("%s\n", t);
+
+//     free(t);//free the memory allocated y malloc
+// }
