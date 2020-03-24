@@ -284,3 +284,32 @@
 //   }
 //   printf("\n");
 // }
+
+//////Memory/////
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+//   int n = 50;
+//   // printf("%i\n", n);
+//   // printf("%p\n", &n); //we use & to get the address of n(pointer)
+//   // printf("%i\n", *&n); //we use * to go to that address
+//   int *p = &n;        //This means this the pointer/address of an interger
+//   printf("%p\n", p);  // print the address of p
+//   printf("%i\n", *p); // print the value store in n
+
+//   char *s = "EMMA";
+//   printf("%s\n", s);     // print the value of s("EMMA")
+//   printf("%p\n", s);     // print the address of s(0x400694)
+//   printf("%p\n", &s[0]); // print the address of the first character in s(0x400694) wich is the same address of s
+//   printf("%p\n", &s[1]);
+//   printf("%p\n", &s[2]);
+//   printf("%p\n", &s[3]);
+
+//   printf("%c\n", *s);       // print the letter E (first char in the EMMA string)
+//   printf("%c\n", *(s + 1)); // print the letter M (first second char in the string)
+//   printf("%c\n", *(s + 2));
+//   printf("%c\n", *(s + 3));
+// }
+
